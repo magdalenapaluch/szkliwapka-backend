@@ -1,0 +1,115 @@
+{
+  "kind": "collectionType",
+  "collectionName": "glazes",
+  "info": {
+    "singularName": "glaze",
+    "pluralName": "glazes",
+    "displayName": "Glaze"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nazwa": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "text"
+    },
+    "Photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Wykonczenie": {
+      "type": "enumeration",
+      "default": "Blyszczace",
+      "enum": [
+        "Blyszczace",
+        "Satynowe",
+        "Matowe"
+      ]
+    },
+    "Pokrycie": {
+      "type": "enumeration",
+      "default": "Kryjące",
+      "enum": [
+        "Kryjące",
+        "Poltransparentne",
+        "Transparentne"
+      ]
+    },
+    "Plyniecie": {
+      "type": "enumeration",
+      "default": "Stabilne",
+      "enum": [
+        "Płynące",
+        "Średnie",
+        "Stabilne"
+      ]
+    },
+    "DoJedzenia": {
+      "type": "boolean",
+      "default": true
+    },
+    "Kolor": {
+      "type": "enumeration",
+      "enum": [
+        "Transparentny",
+        "Biały",
+        "Beżowy",
+        "Żółty",
+        "Pomarańczowy",
+        "Czerwony",
+        "Różowy",
+        "Fioletowy",
+        "Niebieski",
+        "Zielony",
+        "Brązowy",
+        "Szary",
+        "Czarny"
+      ]
+    },
+    "Efekt": {
+      "type": "enumeration",
+      "default": "Brak",
+      "enum": [
+        "Brak",
+        "Krakle",
+        "Drobinki",
+        "Przebarwienia"
+      ]
+    },
+    "Rodzaj": {
+      "type": "enumeration",
+      "required": true,
+      "default": "Szkliwo",
+      "enum": [
+        "Szkliwo",
+        "Angoba",
+        "Farba podszkliwna"
+      ]
+    },
+    "DoKubkow": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  }
+}
