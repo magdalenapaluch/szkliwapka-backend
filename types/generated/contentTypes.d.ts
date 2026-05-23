@@ -517,7 +517,7 @@ export interface ApiGlazeGlaze extends Struct.CollectionTypeSchema {
     Opis: Schema.Attribute.Text;
     Photo: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     Plyniecie: Schema.Attribute.Enumeration<
-      ['P\u0142yn\u0105ce', '\u015Arednie', 'Stabilne']
+      ['P\u0142yn\u0105ce', 'P\u00F3\u0142p\u0142yn\u0105ce', 'Stabilne']
     > &
       Schema.Attribute.DefaultTo<'Stabilne'>;
     Pokrycie: Schema.Attribute.Enumeration<

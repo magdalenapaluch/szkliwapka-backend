@@ -60,7 +60,7 @@
       "default": "Stabilne",
       "enum": [
         "Płynące",
-        "Średnie",
+        "Półpłynące",
         "Stabilne"
       ]
     },
